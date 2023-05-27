@@ -1,0 +1,22 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "photo": "./assets/images/01.png",
+            "name": "Jonas",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore"
+        },
+        {
+            "id": 3,
+            "photo": "./assets/images/02.png",
+            "name": "John",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore"
+        },
+        {
+            "name": "Tiger",
+            "photo": "./assets/images/03.png",
+            "id": 4,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore"
+        }
+    ]
+}

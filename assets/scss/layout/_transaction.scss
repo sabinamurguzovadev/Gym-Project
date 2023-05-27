@@ -1,0 +1,54 @@
+#transaction {
+    background-image: url(/assets/images/callto-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+    margin-top: 70px;
+
+    .transaction-box {
+        margin-top: 80px;
+        color: white;
+
+        h2 {
+            font-size: 36px;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 400;
+
+        }
+
+        button {
+            border: none;
+            height: 7vh;
+            width: 200px;
+            border-radius: 20px;
+            background-color: #F6214B;
+            color: white;
+
+            &:hover {
+                background-color: transparent;
+                border: white;
+                transition: 0.5s all ease-in-out;
+            }
+        }
+
+    }
+
+
+
+    // h2,p{
+    //     margin-top: 80px;
+    //     color: white;
+    // }
+    //
+    // .transaction-box{
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+
+    // }
+}

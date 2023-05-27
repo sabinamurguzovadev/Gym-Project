@@ -1,0 +1,49 @@
+#course-students {
+    h1 {
+        margin-top: 60px;
+    }
+
+    p {
+        color: gray;
+    }
+
+    .exercises {
+        position: relative;
+        overflow: hidden;
+
+        img {
+            margin: 40px;
+            position: relative;
+            transition: 0.2s all ease-in-out;
+            &:hover {
+                transform: scale(0.8);
+                transition: 0.2s all ease-in-out;
+            }
+
+        }
+
+        button {
+            border: none;
+            width: 160px;
+            height: 6vh;
+            color: white;
+            background-color: #F6214B;
+            position: absolute;
+            top: 65%;
+            left: 20%;
+
+        }
+    }
+
+    .exercise-text {
+        display: flex;
+        column-gap: 90px;
+        justify-content: center;
+        align-items: center;
+
+        h6 {
+            color: #F6214B;
+        }
+
+    }
+}

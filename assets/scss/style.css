@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+header .logo-header {
+  height: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 23px;
+}
+header .icon-header {
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3vh;
+}
+header .icon-header i {
+  background-color: #F6214B;
+  height: 10vh;
+  width: 70px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .icon-header h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .header-content nav ul {
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+header .header-content nav li {
+  list-style: none;
+}
+header .header-content nav a {
+  text-decoration: none;
+  color: black;
+}
+header .header-content nav a:hover {
+  color: #F6214B;
+}
+
+#fitnes {
+  background-image: url(/assets/images/header-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 65vh;
+  text-transform: uppercase;
+}
+#fitnes h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  transform: translateY(20%);
+}
+#fitnes .text {
+  position: relative;
+}
+#fitnes h5 {
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  position: absolute;
+  left: 40%;
+  transform: translateY(20%);
+  bottom: 38%;
+}
+
+#care {
+  margin-top: 50px;
+  background-color: #FEEFF2;
+  height: 80vh;
+}
+#care .icons-textbox {
+  margin-top: 30px;
+  background-color: white;
+  padding: 40px 50px;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#care h1,
+#care p {
+  padding-top: 15px;
+}
+#care h4 {
+  width: 350px;
+  padding-top: 20px;
+}
+#care img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+#care p {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#course-students h1 {
+  margin-top: 60px;
+}
+#course-students p {
+  color: gray;
+}
+#course-students .exercises {
+  position: relative;
+  overflow: hidden;
+}
+#course-students .exercises img {
+  margin: 40px;
+  position: relative;
+  transition: 0.2s all ease-in-out;
+}
+#course-students .exercises img:hover {
+  transform: scale(0.8);
+  transition: 0.2s all ease-in-out;
+}
+#course-students .exercises button {
+  border: none;
+  width: 160px;
+  height: 6vh;
+  color: white;
+  background-color: #F6214B;
+  position: absolute;
+  top: 65%;
+  left: 20%;
+}
+#course-students .exercise-text {
+  display: flex;
+  -moz-column-gap: 90px;
+       column-gap: 90px;
+  justify-content: center;
+  align-items: center;
+}
+#course-students .exercise-text h6 {
+  color: #F6214B;
+}
+
+#transaction {
+  background-image: url(/assets/images/callto-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  background-position: center;
+  margin-top: 70px;
+}
+#transaction .transaction-box {
+  margin-top: 80px;
+  color: white;
+}
+#transaction .transaction-box h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+#transaction .transaction-box p {
+  font-size: 20px;
+  font-weight: 400;
+}
+#transaction .transaction-box button {
+  border: none;
+  height: 7vh;
+  width: 200px;
+  border-radius: 20px;
+  background-color: #F6214B;
+  color: white;
+}
+#transaction .transaction-box button:hover {
+  background-color: transparent;
+  border: white;
+  transition: 0.5s all ease-in-out;
+}
+
+footer {
+  margin-top: 10%;
+  height: 20vh;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+footer p {
+  width: 900x;
+  color: gray;
+}
+footer h6 {
+  color: #F6214B;
+}
+footer ul {
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  justify-content: flex-end;
+}
+footer ul li {
+  list-style: none;
+  background-color: black;
+  height: 7vh;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer ul li:hover {
+  background-color: #F6214B;
+  transition: 0.3s;
+}/*# sourceMappingURL=style.css.map */
